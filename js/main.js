@@ -25,7 +25,7 @@ const timeElem = document.getElementById('time');
 const scoreElem = document.getElementById('score');
 
 const englishWords = [
-    'establishment',
+    'fire',
     'nutrition',
     'qwerty',
     'revolver',
@@ -44,11 +44,16 @@ const englishWords = [
     'javascript',
     'hero',
     'echo',
-    'leader'
+    'leader',
+    'poker',
+    'react',
+    'monk'
 ];
 
 // Initialize Game
 function init() {
+    // Show number of seconds in UI
+    seconds.innerHTML = time;
     // Load word from array
     showWord(englishWords);
     // Start matching on word input
