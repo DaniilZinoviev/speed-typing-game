@@ -1,0 +1,8 @@
+# Modules
+node_modules
+bower_components
+
+# Archives
+*.rar
+*.zip
+*.7z
